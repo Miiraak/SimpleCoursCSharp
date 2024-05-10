@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SimpleCMenu")]
+[assembly: AssemblyTitle("SimpleCSharpCours")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Premier Tech Ltd")]
-[assembly: AssemblyProduct("SimpleCMenu")]
-[assembly: AssemblyCopyright("Copyright © Premier Tech Ltd 2016")]
+[assembly: AssemblyCompany("Miiraak")]
+[assembly: AssemblyProduct("SimpleCMenuXcSharpCours")]
+[assembly: AssemblyCopyright("Copyright © Miiraak 2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("15368273-1c43-4939-977f-0c198643cf42")]
+[assembly: Guid("")]
 
 // Version information for an assembly consists of the following four values:
 //
