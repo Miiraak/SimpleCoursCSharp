@@ -22,8 +22,8 @@ Les exercices couvrent les points suivants :
 _______________________________
   
  
-## Utilisation
-### Marche à suivre :
+## Utilisation & Installation :
+
 - Installez Visual Studio
 
 Puis :
@@ -32,8 +32,12 @@ Puis :
 
 ![alt tag](https://github.com/Miiraak/SimpleCoursCSharp/blob/master/Images/toVisualStudio.png)
 
-Une fois fait, vous pouvez réduire le code aux endrois indiqués, ces partie permettent l'affichage et le fonctionnement du menu console.
-Vous n'avez rien a modifier ici, allez dans la partie "Exercice", les exercice y sont directement marqué avec une zone prévue pour vos codes.
+- Depuis VS accedez à Program.cs
 
-### Bon entrainement !
+Une fois fait, vous pouvez réduire le code aux endrois indiqués, ces partie permettent l'affichage et le fonctionnement du menu console.
+Vous n'avez rien a modifier ici.
+
+- Vous verrez une zone "Exercice", tapez vos code à l'endrois indiqué.
+
+### Bon entrainement ! N'oubliez pas de lancer le programme pour tester vos codes ! 
 
