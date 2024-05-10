@@ -5,7 +5,7 @@ namespace SimpleCMenu
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)     // <<--- Fermez le code ici 
         {
             string headerText = "   ____  _  _     ____    __ _           _              _   " +
                 Environment.NewLine + "  / ___|| || |_  |  _ \\  /_/| |__  _   _| |_ __ _ _ __ | |_ " +
@@ -42,47 +42,78 @@ namespace SimpleCMenu
             // ______________________________________________________________________________________
 
             subMenu1.SubTitle = "----------------- Les Variables ------------------";
-            subMenu1.addMenuItem(0, "Nom & Age", Var1);
-            subMenu1.addMenuItem(1, "Conversion de température", subMenu1.hideMenu);
-            subMenu1.addMenuItem(2, "Calcule d'aire", subMenu1.hideMenu);
-            subMenu1.addMenuItem(3, "Calcules basique", subMenu1.hideMenu);
+            subMenu1.addMenuItem(0, "1. Nom & Age", Var1);
+            subMenu1.addMenuItem(1, "2. Conversion de température", Var2);
+            subMenu1.addMenuItem(2, "3. Calcule d'aire", Var3);
+            subMenu1.addMenuItem(3, "4. Calcules basique", Var4);
             subMenu1.addMenuItem(4, "Retour", subMenu1.hideMenu);
             subMenu1.ParentMenu = mainMenu;
             subMenu1.Header = mainMenu.Header;
 
             subMenu2.SubTitle = "-------------- Les Types Scalaires ---------------";
-            subMenu2.addMenuItem(0, "Wow");
-            subMenu2.addMenuItem(1, "Retour", subMenu2.hideMenu);
+            subMenu2.addMenuItem(0, "1. Nom & Age", TS1);
+            subMenu2.addMenuItem(1, "2. Calcule d'aire", TS2);
+            subMenu2.addMenuItem(2, "3. Conversion température", TS3);
+            subMenu2.addMenuItem(3, "4. Vérification parité", TS4);
+            subMenu2.addMenuItem(4, "Retour", subMenu2.hideMenu);
             subMenu2.ParentMenu = mainMenu;
             subMenu2.Header = mainMenu.Header;
 
             subMenu3.SubTitle = "--------------- Les Operateurs ------------------";
-            subMenu3.addMenuItem(0, "Retour", subMenu3.hideMenu);
+            subMenu3.addMenuItem(0, "1. Calcules de base", Opr1);
+            subMenu3.addMenuItem(1, "2. Opérations de base", Opr2);
+            subMenu3.addMenuItem(2, "3. Opération logiques", Opr3);
+            subMenu3.addMenuItem(3, "4. Conversion température", Opr4);
+            subMenu3.addMenuItem(4, "5. Vérification parité", Opr5);
+            subMenu3.addMenuItem(5, "Retour", subMenu3.hideMenu);
             subMenu3.ParentMenu = mainMenu;
             subMenu3.Header = mainMenu.Header;
 
             subMenu4.SubTitle = "----------------- Les Conditions ----------------";
-            subMenu4.addMenuItem(0, "Retour", subMenu4.hideMenu);
+            subMenu4.addMenuItem(0, "1. Vérification pos/neg/null", Cond1);
+            subMenu4.addMenuItem(1, "2. Vérification type caractère", Cond2);
+            subMenu4.addMenuItem(2, "3. Attribution de note", Cond3);
+            subMenu4.addMenuItem(3, "4. Vérification joure par mois", Cond4);
+            subMenu4.addMenuItem(4, "Retour", subMenu4.hideMenu);
             subMenu4.ParentMenu = mainMenu;
             subMenu4.Header = mainMenu.Header;
 
             subMenu5.SubTitle = "------------------ Les Boucles ------------------";
-            subMenu5.addMenuItem(0, "Retour", subMenu5.hideMenu);
+            subMenu5.addMenuItem(0, "1. Afficher nombre 1 à 10", Bouc1);
+            subMenu5.addMenuItem(1, "2. Nombres pairs jusqu'à 'X'", Bouc2);
+            subMenu5.addMenuItem(2, "3. Écrire à l'envers", Bouc3);
+            subMenu5.addMenuItem(3, "4. Somme entier de 1 à 'X'", Bouc4);
+            subMenu5.addMenuItem(4, "Retour", subMenu5.hideMenu);
             subMenu5.ParentMenu = mainMenu;
             subMenu5.Header = mainMenu.Header;
 
             subMenu6.SubTitle = "---------------- Les Fonctions -----------------";
-            subMenu6.addMenuItem(0, "Retour", subMenu6.hideMenu);
+            subMenu6.addMenuItem(0, "1. Fonction 'Calculer Carré'", Fonc1);
+            subMenu6.addMenuItem(1, "2. Fonction ''Est pair ?", Fonc2);
+            subMenu6.addMenuItem(2, "3. Fonction 'Calculer moyenne'",Fonc3);
+            subMenu6.addMenuItem(3, "4. Fonction 'Trouver maximum'", Fonc4);
+            subMenu6.addMenuItem(4, "5. Fonction 'Convertir en Majuscule'", Fonc5);
+            subMenu6.addMenuItem(5, "Retour", subMenu6.hideMenu);
             subMenu6.ParentMenu = mainMenu;
             subMenu6.Header = mainMenu.Header;
 
             subMenu7.SubTitle = "----------------- Les Tableaux ------------------";
-            subMenu7.addMenuItem(0, "Retour", subMenu7.hideMenu);
+            subMenu7.addMenuItem(0, "1. Cinq premier nombres pairs", Tab1);
+            subMenu7.addMenuItem(1, "2. Les noms de trois fruits", Tab2);
+            subMenu7.addMenuItem(2, "3. Le nombre est présent ?", Tab3);
+            subMenu7.addMenuItem(3, "4. Modification d'un tableau", Tab4);
+            subMenu7.addMenuItem(4, "5. Stockage dans un tableau", Tab5);
+            subMenu7.addMenuItem(5, "Retour", subMenu7.hideMenu);
             subMenu7.ParentMenu = mainMenu;
             subMenu7.Header = mainMenu.Header;
 
             subMenu8.SubTitle = "------------------ Les Listes -------------------";
-            subMenu8.addMenuItem(0, "Retour", subMenu8.hideMenu);
+            subMenu8.addMenuItem(0, "1. Ajout dans une liste", Liste1);
+            subMenu8.addMenuItem(1, "2. Modification d'une liste", Liste2);
+            subMenu8.addMenuItem(2, "3. Vérification et ajout dans un liste", Liste3);
+            subMenu8.addMenuItem(3, "4. Affichage éléments récurrent d'une liste", Liste4);
+            subMenu8.addMenuItem(4, "5. Suppression élément d'une liste", Liste5);
+            subMenu8.addMenuItem(5, "Retour", subMenu8.hideMenu);
             subMenu8.ParentMenu = mainMenu;
             subMenu8.Header = mainMenu.Header;
 
@@ -111,13 +142,7 @@ namespace SimpleCMenu
             Puis affiche un message de salutation personnalisé avec ces informations.
             */
             // Entrez vos lignes de codes ci-dessous //
-            Console.WriteLine("Bonjour, veuillez entrer votre nom :");
-            string nom = Console.ReadLine();
-            Console.WriteLine("Merci. Veuillez entrer votre age");
-            int age = Convert.ToInt16(Console.ReadLine());
 
-            Console.WriteLine("");
-            Console.WriteLine($"Bienvenue {nom}, Vous avez : {age} ans.");
 
 
             //Ne pas effacer !
@@ -136,6 +161,9 @@ namespace SimpleCMenu
             // Entrez vos lignes de codes ci-dessous //
 
 
+
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Var3()
         {
@@ -149,6 +177,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de codes ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Var4()
         {
@@ -165,6 +195,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de codes ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
 
         // ______________________________________________________________________
@@ -181,6 +213,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de codes ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void TS2()
         {
@@ -194,6 +228,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de codes ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void TS3()
         {
@@ -208,6 +244,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de codes ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void TS4()
         {
@@ -221,6 +259,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de codes ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
 
         // ______________________________________________________________________
@@ -237,6 +277,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de codes ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Opr2()
         {
@@ -249,6 +291,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de codes ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Opr3() // Même exercice que TS4
         {
@@ -261,6 +305,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de codes ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Opr4()
         {
@@ -273,6 +319,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de codes ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Opr5()
         {
@@ -285,6 +333,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
 
         // ______________________________________________________________________
@@ -303,6 +353,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Cond2()
         {
@@ -315,6 +367,9 @@ namespace SimpleCMenu
             */
             // Entrez vos lignes de ci-dessous //
 
+
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Cond3()
         {
@@ -333,6 +388,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Cond4()
         {
@@ -345,6 +402,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
 
         // ______________________________________________________________________
@@ -362,6 +421,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //   
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Bouc2()
         {
@@ -375,6 +436,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Bouc3()
         {
@@ -387,6 +450,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Bouc4()
         {
@@ -398,6 +463,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
 
         // ______________________________________________________________________
@@ -413,6 +480,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Fonc2()
         {
@@ -424,6 +493,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Fonc3()
         {
@@ -435,6 +506,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Fonc4()
         {
@@ -446,6 +519,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Fonc5()
         {
@@ -457,6 +532,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
 
         // ______________________________________________________________________
@@ -472,6 +549,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Tab2()
         {
@@ -483,6 +562,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Tab3()
         {
@@ -498,6 +579,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Tab4()
         {
@@ -511,6 +594,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Tab5()
         {
@@ -524,6 +609,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
 
         // ______________________________________________________________________
@@ -539,6 +626,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Liste2()
         {
@@ -552,6 +641,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Liste3()
         {
@@ -566,6 +657,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Liste4()
         {
@@ -579,6 +672,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
         static void Liste5()
         {
@@ -591,6 +686,8 @@ namespace SimpleCMenu
             // Entrez vos lignes de code ci-dessous //
 
 
+            //Ne pas effacer !
+            Console.ReadLine();
         }
 
     }
