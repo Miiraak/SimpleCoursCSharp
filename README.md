@@ -1,25 +1,26 @@
-# SimpleConsoleMenu
-a simple and customisable c# console menu system 
+# Exercices C# débutant 
+Liste d'exercices pour C# en console app sous VisualStudioCode. 
 
-![alt tag](https://raw.githubusercontent.com/Bobandy/SimpleConsoleMenu/master/SC1.PNG)
-![alt tag](https://raw.githubusercontent.com/Bobandy/SimpleConsoleMenu/master/SC2.PNG)
+Fork du projet [SimpleConsoleMenu](https://github.com/Bobandy/SimpleConsoleMenu) auquel j'ai ajouté mon [Cours C# Débutant](https://github.com/Miiraak/ExercicesCSharpConsoleApp)
+______________________________________________
+![alt tag](https://github.com/Miiraak/SimpleCoursCSharp/blob/master/Images/menuModule.png)
+______________________________________________
+![alt tag](https://github.com/Miiraak/SimpleCoursCSharp/blob/master/Images/menuExercice.png)
+______________________________________________
 
-```c#
-// Setup the menu
-ConsoleMenu mainMenu = new ConsoleMenu();
 
-ConsoleMenu subMenu1 = new ConsoleMenu("==>");
-subMenu1.SubTitle = "---------------- Secret Menu -----------------";
-subMenu1.addMenuItem(0, "backToMain", subMenu1.hideMenu);
-subMenu1.ParentMenu = mainMenu;
+#### Contient une trentaine d'exercice réparti sur 8 catégorie.
+Les exercices couvrent les points suivants :
+- Variables
+- Types Scalaires
+- Opérateurs
+- Conditions
+- Boucles
+- Fonctions
+- Tableaux
+- Listes
+_______________________________
+  
+ 
 
-mainMenu.Header = headerText;
-subMenu1.Header = mainMenu.Header;
 
-mainMenu.SubTitle = "-------------------- Menu ----------------------";
-mainMenu.addMenuItem(0, "Hello World!", HelloWorld);
-mainMenu.addMenuItem(1, "Secret Menu", subMenu1.showMenu);
-mainMenu.addMenuItem(2, "Exit", Exit);
-// Display the menu
-mainMenu.showMenu();
-```
