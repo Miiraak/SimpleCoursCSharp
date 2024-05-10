@@ -22,5 +22,18 @@ Les exercices couvrent les points suivants :
 _______________________________
   
  
+## Utilisation
+### Marche à suivre :
+- Installez Visual Studio
 
+Puis :
+
+![alt tag](https://github.com/Miiraak/SimpleCoursCSharp/blob/master/Images/codeButton.png)
+
+![alt tag](https://github.com/Miiraak/SimpleCoursCSharp/blob/master/Images/toVisualStudio.png)
+
+Une fois fait, vous pouvez réduire le code aux endrois indiqués, ces partie permettent l'affichage et le fonctionnement du menu console.
+Vous n'avez rien a modifier ici, allez dans la partie "Exercice", les exercice y sont directement marqué avec une zone prévue pour vos codes.
+
+### Bon entrainement !
 
