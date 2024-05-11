@@ -1,5 +1,5 @@
 # Exercices C# débutant 
-Liste d'exercices pour C# en console app sous VisualStudioCode. 
+Liste d'exercices pour C# en console app sous VisualStudio. 
 
 Fork du projet [SimpleConsoleMenu](https://github.com/Bobandy/SimpleConsoleMenu) auquel j'ai ajouté mon [Cours C# Débutant](https://github.com/Miiraak/ExercicesCSharpConsoleApp)
 ______________________________________________
