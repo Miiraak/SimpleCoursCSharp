@@ -9,16 +9,16 @@ ______________________________________________
 ______________________________________________
 
 
-#### Contient une trentaine d'exercice réparti sur 8 catégorie.
+#### Contient une trentaine d'exercices répartis sur 8 catégories.
 Les exercices couvrent les points suivants :
-- Variables
-- Types Scalaires
-- Opérateurs
-- Conditions
-- Boucles
-- Fonctions
-- Tableaux
-- Listes
+- Les Variables
+- Les Types Scalaires
+- Les Opérateurs
+- Les Conditions
+- Les Boucles
+- Les Fonctions
+- Les Tableaux
+- Les Listes
 _______________________________
   
  
@@ -32,12 +32,12 @@ Puis :
 
 ![alt tag](https://github.com/Miiraak/SimpleCoursCSharp/blob/master/Images/toVisualStudio.png)
 
-- Depuis VS accedez à Program.cs
+- Depuis VS accédez à Program.cs
 
-Une fois fait, vous pouvez réduire le code aux endrois indiqués, ces partie permettent l'affichage et le fonctionnement du menu console.
-Vous n'avez rien a modifier ici.
+Ceci fait, vous pouvez réduire le code aux endrois indiqués, ces parties permettent l'affichage et le fonctionnement du menu console.
+Vous n'avez rien à modifier ici.
 
-- Vous verrez une zone "Exercice", tapez vos code à l'endrois indiqué.
+- Vous verrez une zone "Exercice", tapez vos codes aux l'endrois indiqués.
 
 ### Bon entrainement ! N'oubliez pas de lancer le programme pour tester vos codes ! 
 
